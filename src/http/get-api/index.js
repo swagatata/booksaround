@@ -6,6 +6,7 @@ exports.handler = async function http (req) {
       'cache-control': 'no-cache, no-store, must-revalidate, max-age=0, s-maxage=0'
     },
     body: JSON.stringify({
+      title: 'London Book Share',
       message: 'Hello from your Begin API!'
     })
   }
