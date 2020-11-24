@@ -17,7 +17,7 @@ test('get /api', async t => {
     t.ok(result, 'Got API response', console.log(result.body))
     t.equal(
       result.body.message,
-      'Hello from your Begin API!',
+      'Start by entering your post code!',
       'API response should match.'
     )
   } catch (err) {

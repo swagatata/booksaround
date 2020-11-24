@@ -21,6 +21,7 @@ test('Start sandbox', async t => {
 
 test('get / (continuation-passing style)', t => {
   t.plan(1)
+  console.log(url)
   tiny.get({url},
   function win (err, result) {
     if (err) {
