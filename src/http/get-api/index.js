@@ -7,7 +7,7 @@ exports.handler = async function http (req) {
     },
     body: JSON.stringify({
       title: 'London Book Share',
-      message: 'Hello from your Begin API!'
+      message: 'Start by entering your post code!'
     })
   }
 }
